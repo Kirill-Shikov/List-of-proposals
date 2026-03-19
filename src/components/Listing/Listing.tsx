@@ -1,5 +1,5 @@
 import React from 'react';
-import { EtsyItem, ListingProps } from './Listing.types'; // единый путь
+import { EtsyItem, ListingProps } from './Listing.types';
 
 const formatPrice = (price: string, currencyCode: string): string => {
   const priceNum = parseFloat(price);
